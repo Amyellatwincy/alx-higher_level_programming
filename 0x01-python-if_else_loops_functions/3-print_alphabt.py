@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-for ascii_code in range(97, 123):
-    # If ascii_code match code for 'q' and 'e' skip it
-    if ascii_code == 101 or ascii_code == 113:
-    continue
-    # Print out the character format of the ascii_code
-    print("{:c}".format(ascii_code), end='')
+for i in range(ord('a'), ord('z') + 1):
+    if chr(i) == 'e' or chr(i) == 'q':
+        continue
+    else:
+        print("{:s}".format(chr(i)), end="")
