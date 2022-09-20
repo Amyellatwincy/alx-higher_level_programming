@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 for ascii_code in range(97, 123):
     # If ascii_code match code for 'q' and 'e' skip it
     if ascii_code == 101 or ascii_code == 113:
